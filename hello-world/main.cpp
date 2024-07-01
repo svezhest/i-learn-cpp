@@ -14,5 +14,9 @@ int main()
     }
     cout << endl;
 
+    bool first = true;
+    cout << (first = false, true) << '\n';
+    cout << first;
+
     return 0;
 }
